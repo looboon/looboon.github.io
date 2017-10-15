@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio Website for Udacity Full Stack Web Dev Nanodegree</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- custom fonts link -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+  <!-- header class -->
+  <header class="container">
+
+    <!-- logo and name -->
+    <div class="title row">
+      <div class="col-md-6 col-sm-4 col-xs-4 logo">
+        <img class="picture" src="img/logo.png" alt="Udacity Logo">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="name">Loo Choon Boon</h1>
+        <h4 class="name">Full Stack Web Dev/Deep Learning Enthusiast</h4>
+      </div>
+    </div>
+
+    <!-- nav bar -->
+    <nav class="content-bar navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+          data-target="#myNavbar">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <!-- navigation list -->
+          <li class="nav-item"><a class="nav-item text-uppercase" href="#about-me">About Me</a></li>
+          <li class="nav-item"><a class="nav-item text-uppercase" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-item text-uppercase" href="#project">Projects</a></li>
+          <li class="nav-item"><a class="nav-item text-uppercase" href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- main image -->
+  <figure class="container main-img">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-responsive" src="https://file.mockplus.com/image/2017/03/4aa9f0d5-be40-49ec-ad8d-7b37559ad752.jpg" alt="Machine Learning Picture">
+      </div>
+    </div>
+  </figure>
+
+  <!-- about me section -->
+  <section class="container about-me">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-uppercase text-center about-title" id="about-me">About Me</h3>
+        <hr>
+        <h4 class="text-center">Graduate from National University of Singapore with a strong interest in data analytics and deep learning. Currently taking Udacity's Full Stack Web Development
+          Nanodegree to pick some full-stack web development skills that might be relevant to my work.</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section -->
+  <section class="container skills">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-uppercase text-center about-title" id="skills">Skills</h3>
+        <hr>
+        <ul>
+          <li><p>Machine Learning: Supervised Learning, Unsupervised Learning, NLP, Computer Vision</p></li>
+          <li><p>Programming: C++, Java, SAS, Python, SQL</p></li>
+          <li><p>Web Development: HTML, CSS</p></li>
+          <li><p>Deep Learning: Tensorflow/tflearn, Keras</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- projects section -->
+  <section class="project-content container">
+
+    <!-- project title -->
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-uppercase project-title" id="project">Projects</h3>
+        <hr>
+      </div>
+    </div>
+
+    <!-- projects portfolio -->
+    <div class="row">
+      <div class="col-md-4 crop">
+        <a href="https://github.com/looboon/udacity_dl_nanodegree">
+          <img class="img-responsive app-img" src="img/deep_learning.jpg" alt="Deep Learning Udacity">
+        </a>
+        <h4 class="text-uppercase text-center">Deep Learning Nanodegree Foundation Projects</h4>
+        <p class="text-center">Projects in deep learning including language translation with seq2seq and
+           image generation with DCGANs.</p>
+      </div>
+      <div class="col-md-4 crop">
+        <a href="https://github.com/looboon/udacity_ml_nanodegree">
+          <img class="img-responsive app-img" src="img/MLND-blog-post-1024x536.png" alt="Machine Learning Engineer Nanodegree Thumbnail">
+        </a>
+        <h4 class="text-uppercase text-center">Machine Learning Engineer Nanodegree Projects</h4>
+        <p class="text-center">Projects in machine learning engineer nanodegree including both supervised and
+           unsupervised learning.</p>
+      </div>
+      <div class="col-md-4 crop">
+        <a href="https://github.com/looboon/ssd_keras_test">
+          <img class="img-responsive app-img" src="img/maxresdefault.jpg" alt="Object Detection">
+        </a>
+        <h4 class="text-uppercase text-center">Object Detection with SSD in Keras and Tensorflow</h4>
+        <p class="text-center">Used a Single-shot Multibox Detector model implemented in Keras with
+          Tensorflow backend for object detection.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact me footer -->
+  <footer class="container" id="contact">
+    <div class="row">
+      <div class="col-md-12 foot">
+        <ul>
+          <li>
+            <a href="mailto:loochoonboon@live.com">
+              <i class="fa fa-envelope fa-2x">
+              </i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/loo-choon-boon-6231b1140/">
+              <i class="fa fa-linkedin fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/looboon">
+              <i class="fa fa-github-alt fa-2x">
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jquery reference -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- bootstrap.js reference -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
